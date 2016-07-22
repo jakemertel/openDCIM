@@ -79,7 +79,7 @@
 		}
 		$resultcount=count($devList);
 		$title=__("Project Catalog search results for")." &quot;$searchTerm&quot;";
-	}elseif($searchKey="model"){
+	}elseif($searchKey=="model"){
 		$tmpl->Model = $searchTerm;
 		$tmpList = $tmpl->Search( false, true );
 		$devList = array();
